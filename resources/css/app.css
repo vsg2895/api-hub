@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-control {
+    border: 1px solid black !important;
+}
+
+.alert-success, .alert-danger {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px auto;
+    color: white !important;
+    font-weight: 500;
+}
+
+.color-red {
+    color: red;
+}
+
+.m-p-1 {
+    padding: 0.5rem !important;
+}
+
+.border-bold {
+    border: 2px solid black !important;
+}
+
+.close {
+    background-color: white;
+    border: none;
+    border-radius: 30%;
+}
+
+.close:hover {
+    background-color: #e1ebf9;
+}
+
+.menu-active {
+    background-image: radial-gradient(370px circle at 80% 50%, rgba(26, 115, 232, 0.6) 0, #135cbc 100%)
+}
+
+.page-link.active, .active > .page-link {
+    background-image: radial-gradient(370px circle at 80% 50%, rgba(26, 115, 232, 0.6) 0, #135cbc 100%) !important;
+    border: none !important;
+}
+
+.pagination {
+    float: right;
+    margin-top: 10px;
+}
+
+.pagination .active .page-link {
+    color: white;
+}
